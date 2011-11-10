@@ -8,13 +8,17 @@
   <%= csrf_meta_tags %>
 </head>
 <body>
-	<div class = "container">
-		<nav>
-			<%= link_to "Home", '#'%>
-			<%= link_to "Help", '#'%>
-			<%= link_to "Sign In", '#'%>						
-		</nav>
+	<div class = "container">\
+		<header>
+			<nav>
+				<%= link_to "Home", '#'%>
+				<%= link_to "Help", '#'%>
+				<%= link_to "Sign In", '#'%>						
+			</nav>
+		</header>
 	</div>
+	
+	
 <%= yield %>
 
 </body>
